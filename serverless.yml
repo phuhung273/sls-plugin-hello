@@ -8,3 +8,6 @@ provider:
 functions:
   hello:
     handler: index.handler
+	
+plugins:
+  - ./my-plugin.js
